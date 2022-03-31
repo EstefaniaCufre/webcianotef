@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62,5%; /* 1REM = 10px */
+}
+
+body {
+  background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png);
+}
+
+h1 {
+    color: #0B2545;
+    background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png) ;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0 0 2 0;
+    padding: 1;
+}
+
+h2 {
+  color: #13315C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 1rem 1rem;
+}
+
+h3 {color: #13315C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+}
+
+.navPrincipal {
+  background-color: #26619C;
+  margin-top: 1rem;
+}
+
+.navPrincipal a {
+  color: #EEF4ED;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  list-style: none;
+  text-decoration: none;
+  color: #EEF4ED;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  align-content: center;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+}
+
+p {
+  color: #26619C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/** Inicio **/
+
+.definicion {
+  margin: 2rem;
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 2 2fr 1fr;
+  grid-template-rows: 2 1fr 2fr;
+  align-items: flex-start;
+  grid-template-areas: 
+  
+  "multimedia titulo"
+  "multimedia texto";
+}
+
+.definicion__multimedia {
+  grid-area: multimedia;
+}
+
+.definicion__titulo {
+  grid-area: titulo;
+}
+
+.definicion__texto {
+  grid-area: texto;
+}
+
+.definicion__titulo {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.definicion__texto {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;  
+  padding: 0.5rem;
+  max-width: 25rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.definicion__multimedia {
+  width: 35rem;
+  object-fit: cover;
+}
+
+
+/** Galeria **/
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.galeria img {
+  height: 20rem;
+  width: auto;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+
+.galeria p {
+  width: 15rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  padding: 0.5rem;
+}
+
+/** Tienda **/
+
+.tienda {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  width: 30rem;
+  margin-left: 5rem;
+  padding: 2rem;
+}
+
+.tienda img {
+  height: 15rem;
+}
+
+.tienda p {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.precio {
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #26619C;
+  display: block;
+  color: #EEF4ED;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 1rem;
+  transition: background-color .3s ease-out;
+  text-align: center;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #13315C;
+  cursor:pointer;
+}
+
+/** Bio **/
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bio img {
+  margin: 1rem;
+  padding: 1rem;
+  width: 22rem;
+  height: auto;
+}
+
+.bioTexto {
+  margin: 1rem;
+  padding: 1rem;
+  width: 22rem;
+  height: auto;
+  text-align: justify;
+}
+
+/** Contacto **/
+
+.formulario {
+  max-width: 35rem;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formulario fieldset {
+  border: 1px solid #0B2545;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.formulario legend {
+  text-align: center;
+  width: 100%;
+  background-color: #26619C;
+  color: #EEF4ED;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.campo label {
+  flex-basis: 10rem;
+}
+
+.campo input:not([type="radio"]),
+.campo textarea,
+.campo select {
+  flex: 1;
+  border: 1px solid #EEF4ED;
+  padding: 1rem;
+}
+
+/** Footer **/
+
+.footer{
+  background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png);
+  margin-top: 5rem;
+  border-top: 1px solid #26619C;
+  color: #0B2545;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  text-align: center;
+}  
+
+.footer h3 {
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+
+.footerRedes a {
+  color: #13315C;
+  text-decoration: none;
+  margin: 0.1rem;
+  padding: 0.5rem;
+}
+
+.footer p {
+  color: #26619C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+
+/** MOBILE **/
+
+@media screen and (max-width: 425px) {
+
+  h1 {font-size: 1.5rem;
+  }
+  
+  h2 {font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+  }
+  
+  .contenedor {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat (4, 1fr); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "header"
+    "navegacion"
+    "main"
+    "footer"; 
+  }
+
+  h1 {
+    grid-area: header;
+  }
+  
+  .navPrincipal {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+  
+   .menu li {
+    grid-area: navegacion;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  .main {
+    flex-wrap: wrap;
+    grid-area: main;
+  }
+
+
+  .definicion {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "multimedia"
+      "titulo"
+      "texto";
+  }
+  
+.bio {
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ .bio img, p {
+   max-width: 85%;
+   margin: 0;
+   padding: 0;
+ }
+
+ .galeria {
+   max-width: 85%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
+
+.footer {
+  display: block;
+ grid-area: footer;
+}
+
+.footer a {
+ display: flex;
+ flex-direction: column;
+}
+}
+
+/** TABLET **/
+
+@media screen and (max-width: 768px) {
+
+  h1 {font-size: 1.8rem;
+    margin-top: 0.4rem;
+  }
+  h2 {font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+  }
+  
+   .navPrincipal {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+  
+   .menu li {
+    font-size: 1rem;
+  }
+   
+  .bio img, p {
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+}
+
+
+/** pruebas 
+.container {  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-rows: 0.3fr 1.4fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header"
+    "navegacion navegacion"
+    "imagen titulo"
+    "imagen texto"
+    "video titulov"
+    "video textov"
+    "footer footer";
+}
+
+.header { grid-area: header; }
+
+.navegacion { grid-area: navegacion; }
+
+.titulo { grid-area: titulo; }
+
+.texto { grid-area: texto; }
+
+.imagen { grid-area: imagen; }
+
+.footer { grid-area: footer; }
+
+.video { grid-area: video; }
+
+.titulov { grid-area: titulov; }
+
+.textov { grid-area: textov; }
+
+
+@media screen and (max-width: 425px) {
+  
+  h1 {font-size: 1.5rem;
+  }
+  h2 {font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+  }
+  .contenedor {
+    width: 100vw;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat (4, 1fr); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "header"
+    "navegacion"
+    "main"
+    "footer"; 
+  }
+
+  h1 {
+    grid-area: header;
+  }
+  
+  .menu li {
+    grid-area: navegacion;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  .main {
+    flex-wrap: wrap;
+    grid-area: main;
+  }
+ 
+ .bio {
+     flex-direction: column;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+    }
+    
+    .bio img, p {
+      max-width: 85%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .galeria {
+      max-width: 85%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+  .footer {
+    grid-area: footer;
+  }
+  
+  .footer a {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+**/
