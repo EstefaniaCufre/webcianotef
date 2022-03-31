@@ -141,7 +141,14 @@ p {
   margin-top: 2rem;
   margin-left: 3rem;
   object-fit: cover;
+  transition: height, 2s;
 }
+
+.galeria img:hover {
+  height: 25rem;
+}
+
+
 
 .galeria p {
   width: 15rem;
@@ -222,6 +229,9 @@ p {
 
 }
 
+.exposiciones h2 {
+  color: #EEF4ED;
+}
 .exposicionesTexto {
   display: flex;
   flex-direction: row;
@@ -229,6 +239,25 @@ p {
   justify-content: center;
   margin: 1rem;
   padding: 1rem;
+  color: #EEF4ED;
+}
+
+@keyframes fondoColor {
+  0% {
+    background-color: #0B2545}
+  
+  50% {
+    background-color: #13315C}
+  
+  100% {
+    background-color: #26619C}
+  }
+
+.cajaExposiciones {
+  animation-name: fondoColor;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 
 }
 
@@ -273,6 +302,7 @@ p {
   border: 1px solid #EEF4ED;
   padding: 1rem;
 }
+
 
 /** Footer **/
 
