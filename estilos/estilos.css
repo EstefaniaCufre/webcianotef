@@ -78,6 +78,8 @@ p {
 
 /** Inicio **/
 
+/** sin bootstrap
+
 .definicion {
   margin: 2rem;
   padding: 1rem;
@@ -103,6 +105,8 @@ p {
 .definicion__texto {
   grid-area: texto;
 }
+
+**/
 
 .definicion__titulo {
   margin-top: 3rem;
@@ -160,6 +164,7 @@ p {
 
 /** Tienda **/
 
+/** sin bootstrap 
 .tienda {
   display: grid;
   grid-template-columns: 4fr 2fr;
@@ -169,8 +174,16 @@ p {
   padding: 2rem;
 }
 
+**/
+
 .tienda img {
-  height: 15rem;
+  height: 25rem;
+  width: auto;
+  align-items: right;
+}
+
+.tienda h3 {
+  text-align: center;
 }
 
 .tienda p {
@@ -198,16 +211,17 @@ p {
 
 .btn:hover {
   background-color: #13315C;
+  color: #EEF4ED;
   cursor:pointer;
 }
 
 /** Bio **/
 
 .bio {
-  display: flex;
+  /**display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; **/
   background: rgb(11,37,69);
   background: radial-gradient(circle, rgba(11,37,69,1) 0%, rgba(19,49,92,1) 35%, rgba(38,97,156,1) 100%);
 }
@@ -215,14 +229,14 @@ p {
 .bio img {
   margin: 1rem;
   padding: 1rem;
-  width: 22rem;
+  width: 25rem;
   height: auto;
 }
 
 .bioTexto {
-  margin: 1rem;
+  margin: 2rem;
   padding: 1rem;
-  width: 22rem;
+  width: 30rem;
   height: auto;
   text-align: justify;
   color: #EEF4ED;
