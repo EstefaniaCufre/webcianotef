@@ -1,3 +1,14 @@
+html {
+  font-size: 62,5%;
+  /* 1REM = 10px */ }
+
+.container-fluid {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png); }
+
 nav {
   border-bottom: #0B2545 solid 0.1rem;
   margin-bottom: 2rem; }
@@ -27,7 +38,11 @@ footer {
     color: #EEF4ED;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    padding: 4rem 0 2rem 0; }
+
+.footerRedes {
+  border: none; }
 
 nav img {
   width: 1rem;
@@ -42,7 +57,3 @@ nav a {
   font-weight: 400;
   font-size: 1rem;
   text-align: right; }
-
-container-fluid {
-  margin: 0%;
-  padding: 0%; }
