@@ -6,7 +6,7 @@ footer {
     flex-direction: row;
     gap: 4rem;
     justify-content: space-around;
-    border: none;
+    
     img {
        width: 6rem;
        height: 5rem;
@@ -20,7 +20,9 @@ footer {
     }
      
 }
-    nav {
+    
+nav {
+    
         img {
             width: 1rem;
             height: 1rem;

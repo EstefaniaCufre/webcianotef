@@ -1,3 +1,17 @@
+nav {
+  border-bottom: #0B2545 solid 0.1rem;
+  margin-bottom: 2rem; }
+  nav ul {
+    display: flex;
+    justify-content: space-around; }
+    nav ul li {
+      list-style-type: none; }
+      nav ul li a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: #000; }
+
 footer {
   background-color: #C95C7F;
   height: 10rem;
@@ -5,8 +19,7 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  justify-content: space-around;
-  border: none; }
+  justify-content: space-around; }
   footer img {
     width: 6rem;
     height: 5rem; }
@@ -29,20 +42,6 @@ nav a {
   font-weight: 400;
   font-size: 1rem;
   text-align: right; }
-
-nav {
-  border-bottom: #0B2545 solid 0.1rem;
-  margin-bottom: 2rem; }
-  nav ul {
-    display: flex;
-    justify-content: space-around; }
-    nav ul li {
-      list-style-type: none; }
-      nav ul li a {
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        color: #000; }
 
 container-fluid {
   margin: 0%;
