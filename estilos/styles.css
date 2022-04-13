@@ -9,8 +9,32 @@ html {
 body {
   background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png); }
 
+h1 {
+  color: #0B2545;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0 0 2 0;
+  padding: 1; }
+
+h2 {
+  color: #13315C;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 1rem 1rem; }
+
+p {
+  color: #EEF4ED;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; }
+
 nav {
-  border-bottom: #0B2545 solid 0.1rem;
+  border-bottom: #0B2545, solid 0.1rem;
   margin-bottom: 2rem; }
   nav ul {
     display: flex;
@@ -22,6 +46,9 @@ nav {
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
         color: #000; }
+        nav ul li a:hover {
+          text-decoration: none;
+          color: #26619C; }
 
 footer {
   background-color: #C95C7F;
@@ -39,16 +66,16 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: center;
-    padding: 4rem 0 2rem 0; }
+    margin-top: 4.2rem; }
 
 .footerRedes {
   border: none; }
 
-nav img {
+.footerRedes img {
   width: 1rem;
   height: 1rem; }
 
-nav a {
+.footerRedes a {
   color: #EEF4ED;
   text-decoration: none;
   margin-top: 5rem;
@@ -57,3 +84,43 @@ nav a {
   font-weight: 400;
   font-size: 1rem;
   text-align: right; }
+  .footerRedes a:hover {
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #0b2545;
+  background: radial-gradient(circle, #0b2545 0%, #13315c 35%, #26619c 100%); }
+  .bio img {
+    height: 20rem;
+    width: auto;
+    margin: 2rem 3rem 2rem 3rem;
+    object-fit: cover;
+    transition: height, 1s; }
+    .bio img:hover {
+      height: 25rem; }
+
+.bioTexto {
+  margin-right: 3rem;
+  padding: 2rem;
+  width: 26rem;
+  height: auto;
+  text-align: justify;
+  color: #EEF4ED; }
+
+.cajaExposiciones {
+  background-color: #13315C; }
+  .cajaExposiciones h2 {
+    color: #EEF4ED; }
+  .cajaExposiciones p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: #EEF4ED; }

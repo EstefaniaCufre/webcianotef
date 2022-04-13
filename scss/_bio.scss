@@ -1,0 +1,46 @@
+.bio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(11,37,69);
+    background: radial-gradient(circle, rgba(11,37,69,1) 0%, rgba(19,49,92,1) 35%, rgba(38,97,156,1) 100%);
+        img {
+            height: 20rem;
+            width: auto;
+            margin: 2rem 3rem 2rem 3rem;
+            object-fit: cover;
+            transition: height, 1s;
+            &:hover {
+                height: 25rem;
+            }
+      
+       
+    }
+}
+.bioTexto {
+    margin-right: 3rem;
+    padding: 2rem;
+    width: 26rem;
+    height: auto;
+    text-align: justify;
+    color: $colorBlanco;
+}
+
+.cajaExposiciones {
+    background-color: $colorSecundario;
+    h2 {
+        color: $colorBlanco
+
+    }
+    p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1rem;
+        padding: 1rem;
+        color: #EEF4ED;
+
+    }
+}

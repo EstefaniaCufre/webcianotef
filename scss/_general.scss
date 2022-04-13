@@ -10,3 +10,30 @@ html {
 body {
     background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png);
 }
+
+h1 {
+    color: #0B2545;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0 0 2 0;
+    padding: 1;
+}
+
+h2 {
+    color: $colorSecundario;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem 1rem;
+  }
+
+  p {
+    color: $colorBlanco;
+    font-family: $fontTexto;
+    font-weight: 400;
+    font-size: 1rem;
+  }
