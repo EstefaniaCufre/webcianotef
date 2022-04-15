@@ -13,10 +13,9 @@
         &:hover {
         height: 25rem;
             }
-      
-       
     }
 }
+
 .bioTexto {
     margin-right: 3rem;
     padding: 2rem;
@@ -34,7 +33,7 @@
     color: $colorNegro;
 }
 
-.cajaExposiciones
+.cajaExposiciones {
     p {
         display: flex;
         flex-direction: row;
@@ -43,5 +42,5 @@
         margin: 1rem;
         padding: 2rem;
         color: $colorNegro;
-
     }
+}

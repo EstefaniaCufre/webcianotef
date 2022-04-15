@@ -108,46 +108,6 @@ nav ul {
   font-size: 1rem;
   text-align: right; }
 
-.bio {
-  margin: 5rem 10rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .bio img {
-    height: 20rem;
-    width: auto;
-    margin: 2rem 3rem 2rem 3rem;
-    object-fit: cover;
-    transition: height, 1s; }
-    .bio img:hover {
-      height: 25rem; }
-
-.bioTexto {
-  margin-right: 3rem;
-  padding: 2rem;
-  height: auto;
-  text-align: justify;
-  color: #000000; }
-
-.exposicionesTexto {
-  margin-right: 3rem;
-  padding-left: 2rem;
-  width: 26rem;
-  height: auto;
-  text-align: justify;
-  color: #000000; }
-
-.cajaExposiciones
-p {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1rem;
-  padding: 2rem;
-  color: #000000; }
-
 .hero-text h4 {
   font-size: 0.75rem;
   font-family: "Montserrat";
@@ -183,3 +143,64 @@ p {
   font-style: italic;
   text-align: center;
   margin-top: 2rem; }
+
+.bio {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .bio img {
+    height: 20rem;
+    width: auto;
+    margin: 2rem 3rem 2rem 3rem;
+    object-fit: cover;
+    transition: height, 1s; }
+    .bio img:hover {
+      height: 25rem; }
+
+.bioTexto {
+  margin-right: 3rem;
+  padding: 2rem;
+  height: auto;
+  text-align: justify;
+  color: #000000; }
+
+.exposicionesTexto {
+  margin-right: 3rem;
+  padding-left: 2rem;
+  width: 26rem;
+  height: auto;
+  text-align: justify;
+  color: #000000; }
+
+.cajaExposiciones p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+  padding: 2rem;
+  color: #000000; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem; }
+  .galeria img {
+    height: 20rem;
+    width: auto;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    object-fit: cover;
+    transition: ease-in, 1s; }
+    .galeria img:hover {
+      height: 25rem; }
+
+.galeria p {
+  width: 15rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  padding: 0.5rem; }
