@@ -7,10 +7,10 @@ html {
   padding: 0%; }
 
 h1 {
-  color: #0B2545;
+  color: #13315C;
   font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  font-size: 3.5rem;
+  font-weight: 200;
+  font-size: 3rem;
   text-align: center;
   margin: 0 0 2 0;
   padding: 1; }
@@ -74,9 +74,6 @@ footer {
     text-align: center;
     margin-top: 4.2rem; }
 
-.footerRedes {
-  border: none; }
-
 .footerRedes img {
   width: 1rem;
   height: 1rem; }
@@ -90,9 +87,6 @@ footer {
   font-weight: 400;
   font-size: 1rem;
   text-align: right; }
-  .footerRedes a:hover {
-    text-decoration: none;
-    text-transform: uppercase; }
 
 .bio {
   display: flex;
@@ -133,3 +127,22 @@ p {
   margin: 1rem;
   padding: 2rem;
   color: #000000; }
+
+.hero-text h4 {
+  font-size: 0.75rem;
+  font-family: "Montserrat";
+  width: 17rem;
+  padding-left: 7rem; }
+
+.hero-img {
+  padding-left: 5rem; }
+
+/*.hero-bg{
+    background-image: url("../img/hero_home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+.main_index {
+  background-image: url("../img/hero_home.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
