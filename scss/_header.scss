@@ -1,8 +1,6 @@
 nav {
-        border-bottom: $colorPrincipal, solid 0.1rem;
-        margin-bottom: 2rem;
+        
         ul {
-            
             display: flex;
             justify-content: space-around;
                 li {
@@ -21,3 +19,17 @@ nav {
 
             }
         }
+    
+        
+        
+.margin-menu{
+    margin: 2rem 0rem;
+}
+
+.logo_header{
+    width: 25%;
+}
+
+.menu{
+    margin: 2rem 0rem;
+}

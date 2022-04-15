@@ -19,4 +19,24 @@
     background-image: url("../img/hero_home.png");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 50rem;
+}
+
+.frase-bg{
+    background-image: url("../img/felino_arte.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.muestra{
+    width: 100%;
+}
+
+.firma{
+    font-family: Georgia;
+    font-size: 1.25rem;
+    color:$colorSecundario;
+    font-style: italic;
+    text-align: center;
+    margin-top: 2rem;
 }

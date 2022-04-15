@@ -38,24 +38,44 @@ p {
   font-weight: 400;
   font-size: 1rem; }
 
-nav {
-  border-bottom: #0B2545, solid 0.1rem;
-  margin-bottom: 2rem; }
-  nav ul {
-    display: flex;
-    justify-content: space-around; }
-    nav ul li {
-      list-style-type: none; }
-      nav ul li a {
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        color: #000; }
-        nav ul li a:hover {
-          text-decoration: none;
-          color: #26619C; }
+.btn {
+  background-color: #C95C7F;
+  color: #EEF4ED;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+  transition: background-color .1s ease-out;
+  text-align: center;
+  border: none;
+  margin: 2rem 7rem; }
+  .btn:hover {
+    background-color: palevioletred;
+    color: #EEF4ED;
+    cursor: pointer; }
 
-footer {
+nav ul {
+  display: flex;
+  justify-content: space-around; }
+  nav ul li {
+    list-style-type: none; }
+    nav ul li a {
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      color: #000; }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: #26619C; }
+
+.margin-menu {
+  margin: 2rem 0rem; }
+
+.logo_header {
+  width: 25%; }
+
+.menu {
+  margin: 2rem 0rem; }
+
+.footer {
   background-color: #C95C7F;
   height: 10rem;
   padding-top: 3.2rem;
@@ -64,10 +84,10 @@ footer {
   flex-direction: row;
   gap: 4rem;
   justify-content: space-around; }
-  footer img {
+  .footer img {
     width: 6rem;
     height: 5rem; }
-  footer p {
+  .footer p {
     color: #EEF4ED;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -89,6 +109,7 @@ footer {
   text-align: right; }
 
 .bio {
+  margin: 5rem 10rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -105,7 +126,6 @@ footer {
 .bioTexto {
   margin-right: 3rem;
   padding: 2rem;
-  width: 26rem;
   height: auto;
   text-align: justify;
   color: #000000; }
@@ -145,4 +165,21 @@ p {
 .main_index {
   background-image: url("../img/hero_home.png");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 50rem; }
+
+.frase-bg {
+  background-image: url("../img/felino_arte.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.muestra {
+  width: 100%; }
+
+.firma {
+  font-family: Georgia;
+  font-size: 1.25rem;
+  color: #13315C;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2rem; }

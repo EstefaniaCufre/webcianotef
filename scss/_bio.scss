@@ -1,4 +1,5 @@
 .bio {
+    margin: 5rem 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,7 +20,6 @@
 .bioTexto {
     margin-right: 3rem;
     padding: 2rem;
-    width: 26rem;
     height: auto;
     text-align: justify;
     color: $colorNegro;

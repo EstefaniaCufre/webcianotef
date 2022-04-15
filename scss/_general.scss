@@ -44,3 +44,19 @@ h3 {
     font-weight: 400;
     font-size: 1rem;
   }
+
+  .btn {
+    background-color: $colorAcento;
+    color: #EEF4ED;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    transition: background-color .1s ease-out;
+    text-align: center;
+    border: none;
+    margin: 2rem 7rem;
+    &:hover {
+    background-color:palevioletred;
+    color: #EEF4ED;
+    cursor:pointer;
+    }
+  }
