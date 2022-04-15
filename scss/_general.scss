@@ -7,9 +7,6 @@ html {
     padding: 0%;
 }
 
-body {
-    background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/paper.png);
-}
 
 h1 {
     color: #0B2545;
@@ -23,16 +20,26 @@ h1 {
 
 h2 {
     color: $colorSecundario;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Georgia', serif;
+    font-weight: 400;
+    font-style: italic;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     margin-top: 1.5rem;
-    padding: 1rem 1rem;
+    padding: 1rem 2.2rem;
   }
 
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $colorNegro;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 2.2rem;
+
+}
+
   p {
-    color: $colorBlanco;
+    color: $colorNegro;
     font-family: $fontTexto;
     font-weight: 400;
     font-size: 1rem;

@@ -1,23 +1,23 @@
 nav {
-    border-bottom: $colorPrincipal, solid 0.1rem;
-    margin-bottom: 2rem;
-    ul {
-        
-        display: flex;
-        justify-content: space-around;
-            li {
-                list-style-type: none;
-                a {
-                    text-decoration: none;
-                    font-family: 'Montserrat', sans-serif;
-                    text-transform: uppercase;
-                    color: #000;
-                    &:hover {
+        border-bottom: $colorPrincipal, solid 0.1rem;
+        margin-bottom: 2rem;
+        ul {
+            
+            display: flex;
+            justify-content: space-around;
+                li {
+                    list-style-type: none;
+                    a {
                         text-decoration: none;
-                        color: #26619C;
+                        font-family: 'Montserrat', sans-serif;
+                        text-transform: uppercase;
+                        color: #000;
+                        &:hover {
+                            text-decoration: none;
+                            color: #26619C;
+                        }
                     }
                 }
-            }
 
+            }
         }
-    }
