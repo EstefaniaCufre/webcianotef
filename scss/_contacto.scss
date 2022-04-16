@@ -1,0 +1,37 @@
+.formulario {
+    max-width: 35rem;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+  
+    fieldset {
+      border: 1px solid #0B2545;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    legend {
+      text-align: center;
+      width: 100%;
+      background-color: #26619C;
+      color: #EEF4ED;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 1rem;
+      margin-bottom: 4rem;
+    }
+  }
+  
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+  
+    label {
+      flex-basis: 10rem;
+    }
+  
+    input:not([type="radio"]), textarea, select {
+      flex: 1;
+      border: 1px solid #EEF4ED;
+      padding: 1rem;
+    }
+  }

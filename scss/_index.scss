@@ -1,39 +1,34 @@
-.hero-text h4{
+.heroText h4 {
     font-size: 0.75rem;
-    font-family:"Montserrat";
+    font-family:"Montserrat", sans-serif;
     width: 17rem;
     padding-left: 7rem;   
 }
-.hero-img{
+
+.heroImg {
         padding-left: 5rem;
     }
 
-
-/*.hero-bg{
-    background-image: url("../img/hero_home.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}*/
-
-.main_index{
+.mainIndex {
     background-image: url("../img/hero_home.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50rem;
 }
 
-.frase-bg{
+.fraseBg {
     background-image: url("../img/felino_arte.png");
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 
-.muestra{
+.muestra {
     width: 100%;
 }
 
-.firma{
-    font-family: Georgia;
+.firma {
+    font-family: Georgia, serif;
     font-size: 1.25rem;
     color:$colorSecundario;
     font-style: italic;

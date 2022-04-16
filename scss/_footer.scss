@@ -3,10 +3,9 @@
     height: 10rem;
     padding-top: 3.2rem;
     margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
+    @include flexbox;
     gap: 4rem;
-    justify-content: space-around;
+    ;
     
     img {
        width: 6rem;

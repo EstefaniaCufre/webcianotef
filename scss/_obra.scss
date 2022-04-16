@@ -12,17 +12,29 @@
         transition: ease-in, 1s;
         &:hover {
             height: 25rem;
-        }
+          }
+      }
+    h3 {
+        color: map-get($estilos, color);
+        text-align: map-get($estilos, izq);
+        font-family: map-get($estilos, fuente);
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 1rem 0 0 3rem;
+        padding: 0.1rem;
     }
+    p {
+        color: map-get($estilos, color);
+        text-align: map-get($estilos, izq);
+        font-family: map-get($estilos, fuente);
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0.1rem 0 0 3rem;
+        padding: 0.1rem;
+      }
 }
   
 
   
-  .galeria p {
-    width: 15rem;
-    text-align: left;
-    margin-top: 0.5rem;
-    margin-left: 3rem;
-    padding: 0.5rem;
-  }
+  
   

@@ -15,3 +15,42 @@ $tituloPagina: 1.5rem;
 $fontTituloPagina: 'Montserrat', sans-serif;
 
 $fontTexto: 'Montserrat', sans-serif;
+
+$estilos: (
+  color: #000000,
+  izq: left,
+  fuente: $fontTexto,
+);
+
+
+.btn {
+    background-color: $colorSecundario;
+    color: #EEF4ED;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    transition: background-color .1s ease-out;
+    text-align: center;
+    border: none;
+    margin: 2rem 7rem;
+    &:hover {
+      background-color: $colorTerciario;
+      color: #EEF4ED;
+      cursor:pointer;
+      }
+  }
+
+.btn-obra {
+  @extend .btn;
+  background-color: $colorAcento;
+  &:hover {
+    background-color:palevioletred;
+    color: #EEF4ED;
+    }
+}
+
+@mixin flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

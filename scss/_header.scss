@@ -1,8 +1,7 @@
 nav {
         
         ul {
-            display: flex;
-            justify-content: space-around;
+            @include flexbox;
                 li {
                     list-style-type: none;
                     a {
@@ -22,14 +21,15 @@ nav {
     
         
         
-.margin-menu{
+.marginMenu{
     margin: 2rem 0rem;
 }
 
-.logo_header{
+.logoHeader{
     width: 25%;
 }
 
 .menu{
     margin: 2rem 0rem;
+    border-bottom: 0.01rem solid $colorNegro;
 }
