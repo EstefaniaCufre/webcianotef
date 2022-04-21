@@ -53,6 +53,11 @@ $estilos: (
   margin: 1rem;
 }
 
+.btn-tienda {
+  @extend .btn-obra;
+  margin: 1rem;
+}
+
 @mixin flexbox {
     display: flex;
     flex-direction: row;

@@ -1,10 +1,4 @@
-.bio {
-    margin: 5rem 10rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    img {
+.bioImg {
         height: 20rem;
         width: auto;
         margin: 2rem 3rem 2rem 3rem;
@@ -14,7 +8,7 @@
         height: 25rem;
             }
     }
-}
+
 
 .bioTexto {
     margin-right: 3rem;

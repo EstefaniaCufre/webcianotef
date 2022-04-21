@@ -1,10 +1,4 @@
-.contacto {
-  margin: 5rem 10rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  img {
+.contactoImg {
       height: 40rem;
       width: auto;
       margin: 2rem 3rem 2rem 3rem;
@@ -15,9 +9,7 @@
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
       animation-duration: infinite;
-  
-  }
-}
+ }
 
 .formulario {
     max-width: 35rem;

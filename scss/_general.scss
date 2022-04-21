@@ -7,6 +7,14 @@ html {
     padding: 0%;
 }
 
+.margenesSeccion {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 h1 {
     color: $colorSecundario;
     font-family: 'Playfair Display', serif;

@@ -1,4 +1,4 @@
-.btn, .btn-obra, .btn-form {
+.btn, .btn-obra, .btn-tienda, .btn-form {
   background-color: #13315C;
   color: #EEF4ED;
   font-family: 'Montserrat', sans-serif;
@@ -7,18 +7,21 @@
   text-align: center;
   border: none;
   margin: 2rem 7rem; }
-  .btn:hover, .btn-obra:hover, .btn-form:hover {
+  .btn:hover, .btn-obra:hover, .btn-tienda:hover, .btn-form:hover {
     background-color: #26619C;
     color: #EEF4ED;
     cursor: pointer; }
 
-.btn-obra {
+.btn-obra, .btn-tienda {
   background-color: #C95C7F; }
-  .btn-obra:hover {
+  .btn-obra:hover, .btn-tienda:hover {
     background-color: palevioletred;
     color: #EEF4ED; }
 
 .btn-form {
+  margin: 1rem; }
+
+.btn-tienda {
   margin: 1rem; }
 
 @keyframes imgAnimation {
@@ -45,6 +48,13 @@ html {
 .container-fluid {
   margin: 0%;
   padding: 0%; }
+
+.margenesSeccion {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 h1 {
   color: #13315C;
@@ -169,20 +179,14 @@ nav ul {
   text-align: center;
   margin-top: 2rem; }
 
-.bio {
-  margin: 5rem 10rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .bio img {
-    height: 20rem;
-    width: auto;
-    margin: 2rem 3rem 2rem 3rem;
-    object-fit: cover;
-    transition: height, 1s; }
-    .bio img:hover {
-      height: 25rem; }
+.bioImg {
+  height: 20rem;
+  width: auto;
+  margin: 2rem 3rem 2rem 3rem;
+  object-fit: cover;
+  transition: height, 1s; }
+  .bioImg:hover {
+    height: 25rem; }
 
 .bioTexto {
   margin-right: 3rem;
@@ -240,7 +244,6 @@ nav ul {
     padding: 0.1rem; }
 
 .tienda img {
-  width: auto;
   align-items: right; }
 
 .tienda h3 {
@@ -250,30 +253,21 @@ nav ul {
   text-align: left;
   padding: 0.5rem; }
 
-.cardHeight {
-  height: 15rem; }
-
 .precio {
   text-align: left;
   font-weight: bold; }
 
-.contacto {
-  margin: 5rem 10rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .contacto img {
-    height: 40rem;
-    width: auto;
-    margin: 2rem 3rem 2rem 3rem;
-    object-fit: cover;
-    position: relative;
-    animation-name: imgAnimation;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: infinite; }
+.contactoImg {
+  height: 40rem;
+  width: auto;
+  margin: 2rem 3rem 2rem 3rem;
+  object-fit: cover;
+  position: relative;
+  animation-name: imgAnimation;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: infinite; }
 
 .formulario {
   max-width: 35rem;
