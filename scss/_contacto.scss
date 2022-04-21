@@ -9,10 +9,13 @@
       width: auto;
       margin: 2rem 3rem 2rem 3rem;
       object-fit: cover;
-      transition: ease-in, 1s;
-      &:hover {
-      height: 25rem;
-    }
+      position: relative;
+      animation-name: imgAnimation;
+      animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: infinite;
+  
   }
 }
 

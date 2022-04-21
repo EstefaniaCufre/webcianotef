@@ -21,6 +21,23 @@
 .btn-form {
   margin: 1rem; }
 
+@keyframes imgAnimation {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 200px;
+    top: 0px; }
+  50% {
+    left: 200px;
+    top: 200px; }
+  75% {
+    left: 0px;
+    top: 200px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+
 html {
   font-size: 62,5%;
   /* 1REM = 10px */ }
@@ -223,20 +240,21 @@ nav ul {
     padding: 0.1rem; }
 
 .tienda img {
-  height: 25rem;
   width: auto;
-  align-items: right;
-  margin-left: 2rem; }
+  align-items: right; }
 
 .tienda h3 {
   text-align: center; }
 
 .tienda p {
-  text-align: center;
+  text-align: left;
   padding: 0.5rem; }
 
+.cardHeight {
+  height: 15rem; }
+
 .precio {
-  text-align: center;
+  text-align: left;
   font-weight: bold; }
 
 .contacto {
@@ -250,9 +268,12 @@ nav ul {
     width: auto;
     margin: 2rem 3rem 2rem 3rem;
     object-fit: cover;
-    transition: ease-in, 1s; }
-    .contacto img:hover {
-      height: 25rem; }
+    position: relative;
+    animation-name: imgAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: infinite; }
 
 .formulario {
   max-width: 35rem;

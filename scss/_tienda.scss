@@ -1,9 +1,7 @@
 .tienda {
     img {
-      height: 25rem;
       width: auto;
       align-items: right;
-      margin-left: 2rem;
     }
   
     h3 {
@@ -11,12 +9,16 @@
     }
   
     p {
-      text-align: center;
+      text-align: left;
       padding: 0.5rem;
     }
   }
+
+  .cardHeight {
+    height: 15rem;
+  }
   
 .precio {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
