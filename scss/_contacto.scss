@@ -1,37 +1,46 @@
+.contacto {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  img {
+      height: 40rem;
+      width: auto;
+      margin: 2rem 3rem 2rem 3rem;
+      object-fit: cover;
+      transition: ease-in, 1s;
+      &:hover {
+      height: 25rem;
+    }
+  }
+}
+
 .formulario {
     max-width: 35rem;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-  
+      
     fieldset {
-      border: 1px solid #0B2545;
       padding: 1rem;
-      margin-bottom: 2rem;
+      margin: 0 0 2rem 1rem;
+     
     }
   
-    legend {
-      text-align: center;
-      width: 100%;
-      background-color: #26619C;
-      color: #EEF4ED;
-      text-transform: uppercase;
-      font-weight: 800;
-      padding: 1rem;
-      margin-bottom: 4rem;
-    }
   }
   
 .campo {
     display: flex;
     margin-bottom: 2rem;
+
   
     label {
-      flex-basis: 10rem;
+      flex-basis: 6rem;
     }
   
-    input:not([type="radio"]), textarea, select {
+    input, textarea {
       flex: 1;
       border: 1px solid #EEF4ED;
       padding: 1rem;
     }
-  }
+}

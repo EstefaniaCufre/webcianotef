@@ -32,79 +32,46 @@
     </header>
     
     <main>
-        <h2>Contacto.</h2>
+        <div class="contacto row">
 
-        <form class="formulario">
-            <fieldset>
-                <legend>Tus datos</legend>
-            
-                <div class="campo">
-                    <label for="nombre">Nombre:</label>
-                    <input id="nombre" type="text" placeholder="Tu Nombre" required>
-                </div>
-                
-                <div class="campo">
-                    <label for="asunto">Asunto:</label>
-                    <input id="asunto" type="text" placeholder="Tu Asunto" required>
-                </div>
-                
-                <div class="campo">
-                    <label for="email">Email:</label>
-                    <input id="email" type="email" placeholder="Tu Email" required>
-                </div>
+            <div class="col-md-6 col-sm-12">
+                <h2>Completá tus datos.</h2>
+                <form class="formulario">
+                    <fieldset>
+                        <div class="campo">
+                            <label for="nombre">Nombre:</label>
+                            <input id="nombre" type="text" placeholder="Tu Nombre" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="asunto">Asunto:</label>
+                            <input id="asunto" type="text" placeholder="Tu Asunto" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" placeholder="Tu Email" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" cols="20" rows="6"></textarea>
+                        </div>
+                        <div class="campo">
+                            <input class="btn btn-form" type="submit" value="Limpiar formulario">
+                            <input class="btn btn-form" type="reset" value="Enviar formulario">
+                        </div>
 
-                <div class="campo">
-                    <label for="tel">Teléfono:</label>
-                    <input id="tel" type="tel" placeholder="Tu Teléfono">
-                </div>
-                
-                <div class="campo">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" cols="20" rows="10"></textarea>
-                </div>
-
-            </fieldset>
-            
-            <fieldset>
-                <legend>País</legend>
-                <div class="campo">
-                    <label for="pais">País</label>
-                    <select id="pais">
-                        <option>-- Seleccione --</option>
-                        <option value="AR">Argentina</option>
-                        <option value="CL">Chile</option>
-                        <option value="CO">Colombia</option>
-                        <option value="ES">España</option>
-                        <option value="MX">México</option>
-                        <option value="PR">Perú</option>
-                        <option value="UR">Uruguay</option>
-                                                
-                    </select>
-                </div>
-            
-            </fieldset>
-
-            <fieldset>
-                <legend>¿Desea recibir nuestras novedades por e-mail?</legend>
-
-                <div class="campo">
-                    <label for="si">Sí, por favor.</label>
-                    <input id="si" type="radio" name="tipo" value="si">
-                </div>
-              
-
-                <div class="campo">
-                    <label for="no">No, gracias.</label>
-                    <input id="no" type="radio" name="tipo" value="no">
-                </div>
-                
-            </fieldset>
-            
-            <div class="campo">
-                <input class="btn" type="submit" value="Enviar formulario">
-                <input class="btn" type="reset" value="Limpiar formulario">
+                    </fieldset>
+                                        
+                    
+                </form>
             </div>
-        </form>
+            <div class="col-md-6 col-sm-12">
+                <img src="../img/osos_vertical.png" alt="Oso">
+                
+            </div>
+        </div>
                 
     </main>
     
@@ -131,6 +98,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+       
 </body>
 </html>
 

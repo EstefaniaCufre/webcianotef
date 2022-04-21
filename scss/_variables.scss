@@ -48,6 +48,11 @@ $estilos: (
     }
 }
 
+.btn-form {
+  @extend .btn;
+  margin: 1rem;
+}
+
 @mixin flexbox {
     display: flex;
     flex-direction: row;

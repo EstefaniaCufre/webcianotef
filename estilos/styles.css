@@ -1,4 +1,4 @@
-.btn, .btn-obra {
+.btn, .btn-obra, .btn-form {
   background-color: #13315C;
   color: #EEF4ED;
   font-family: 'Montserrat', sans-serif;
@@ -7,7 +7,7 @@
   text-align: center;
   border: none;
   margin: 2rem 7rem; }
-  .btn:hover, .btn-obra:hover {
+  .btn:hover, .btn-obra:hover, .btn-form:hover {
     background-color: #26619C;
     color: #EEF4ED;
     cursor: pointer; }
@@ -17,6 +17,9 @@
   .btn-obra:hover {
     background-color: palevioletred;
     color: #EEF4ED; }
+
+.btn-form {
+  margin: 1rem; }
 
 html {
   font-size: 62,5%;
@@ -236,30 +239,35 @@ nav ul {
   text-align: center;
   font-weight: bold; }
 
+.contacto {
+  margin: 5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .contacto img {
+    height: 40rem;
+    width: auto;
+    margin: 2rem 3rem 2rem 3rem;
+    object-fit: cover;
+    transition: ease-in, 1s; }
+    .contacto img:hover {
+      height: 25rem; }
+
 .formulario {
   max-width: 35rem;
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif; }
   .formulario fieldset {
-    border: 1px solid #0B2545;
     padding: 1rem;
-    margin-bottom: 2rem; }
-  .formulario legend {
-    text-align: center;
-    width: 100%;
-    background-color: #26619C;
-    color: #EEF4ED;
-    text-transform: uppercase;
-    font-weight: 800;
-    padding: 1rem;
-    margin-bottom: 4rem; }
+    margin: 0 0 2rem 1rem; }
 
 .campo {
   display: flex;
   margin-bottom: 2rem; }
   .campo label {
-    flex-basis: 10rem; }
-  .campo input:not([type="radio"]), .campo textarea, .campo select {
+    flex-basis: 6rem; }
+  .campo input, .campo textarea {
     flex: 1;
     border: 1px solid #EEF4ED;
     padding: 1rem; }
@@ -267,13 +275,18 @@ nav ul {
 /** MOBILE 
 
 @media screen and (max-width: 425px) {
-    h1 {font-size: 1.5rem;
-  }
+    h1 {
+      font-size: 1.5rem;
+    }
   
-  h2 { font-size: 1rem;
-    margin-top: 0.5rem;
-    padding: 0.3rem;
-  }
+    h2 {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      padding: 0.3rem;
+    }
+
+
+/**
   
 .menu {
     flex-direction: column;
@@ -321,8 +334,8 @@ nav ul {
   }
 
 
-/** TABLET **/
-/**
+/** TABLET
+
 
 @media screen and (max-width: 768px) {
 
@@ -355,4 +368,4 @@ nav ul {
     padding: 0;
   }
 }
-/**/
+**/

@@ -1,13 +1,18 @@
 /** MOBILE 
 
 @media screen and (max-width: 425px) {
-    h1 {font-size: 1.5rem;
-  }
+    h1 {
+      font-size: 1.5rem;
+    }
   
-  h2 { font-size: 1rem;
-    margin-top: 0.5rem;
-    padding: 0.3rem;
-  }
+    h2 {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      padding: 0.3rem;
+    }
+
+
+/**
   
 .menu {
     flex-direction: column;
@@ -55,8 +60,8 @@
   }
 
 
-/** TABLET **/
-/**
+/** TABLET
+
 
 @media screen and (max-width: 768px) {
 
@@ -89,4 +94,4 @@
     padding: 0;
   }
 }
-/**/
+**/
