@@ -243,19 +243,22 @@ nav ul {
     margin: 0.1rem 0 0 3rem;
     padding: 0.1rem; }
 
-.tienda img {
-  align-items: right; }
-
-.tienda h3 {
-  text-align: center; }
-
-.tienda p {
-  text-align: left;
-  padding: 0.5rem; }
+.tienda {
+  padding-left: 2.2rem; }
+  .tienda img {
+    align-items: right; }
+  .tienda h3 {
+    text-align: center; }
+  .tienda p {
+    text-align: left;
+    padding: 0.5rem; }
 
 .precio {
   text-align: left;
   font-weight: bold; }
+
+.marginBtm {
+  margin-bottom: 2rem; }
 
 .contactoImg {
   height: 40rem;
@@ -287,6 +290,39 @@ nav ul {
     border: 1px solid #EEF4ED;
     padding: 1rem; }
 
+/** TABLET 
+
+@media screen and (max-width: 768px) {
+
+  h1 {font-size: 1.8rem;
+    margin-top: 0.4rem;
+  }
+  h2 {font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+  }
+  .menu {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    li {
+      font-size: 1rem;
+   }
+   
+   .bio {
+    img {
+      object-fit: contain;
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      object-fit: contain;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+  
 /** MOBILE 
 
 @media screen and (max-width: 425px) {
@@ -299,88 +335,47 @@ nav ul {
       margin-top: 0.5rem;
       padding: 0.3rem;
     }
-
-
-/**
-  
-.menu {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    li {
-      font-size: 0.5rem
+    .menu {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      li {
+        font-size: 0.5rem;
+      }
     }
-}
- 
-.bio {
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  img {
-    max-width: 85%;
-   margin: 0;
-   padding: 0;
-   }
-   p {
-    max-width: 85%;
+   
+  .bio {
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     padding: 0;
+    img {
+      max-width: 85%;
+     margin: 0;
+     padding: 0;
+     }
+     p {
+      max-width: 85%;
+      margin: 0;
+      padding: 0;
+     }
    }
- }
- 
- .galeria {
-   max-width: 85%;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
- }
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  a {
+   
+   .galeria {
+     max-width: 85%;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+   }
+  
+  .footer {
     display: flex;
     flex-direction: column;
-   }
-  
-  
-  }
-
-
-/** TABLET
-
-
-@media screen and (max-width: 768px) {
-
-  h1 {font-size: 1.8rem;
-    margin-top: 0.4rem;
-  }
-  h2 {font-size: 1.3rem;
-    margin-top: 1rem;
-    padding: 0.3rem;
-  }
-  
-.menu {
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    li {
-      font-size: 1rem;
-   }
-}
-
-.bio {
-  img {
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-  }
-  p {
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-  }
+    a {
+      display: flex;
+      flex-direction: column;
+     }
+    }
 }
 **/
