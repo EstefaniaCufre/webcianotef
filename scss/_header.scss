@@ -1,5 +1,4 @@
-nav {
-        
+nav {        
         ul {
             @include flexbox;
                 li {
@@ -21,14 +20,21 @@ nav {
     
         
         
-.marginMenu{
-    margin: 2rem 0rem;
-}
 
 .logoHeader{
     width: 25%;
+    margin-left: 5rem;
+
 }
 
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+    color: #26619C;
+}
+
+.navbar-customclass .navbar-nav .nav-link {
+    color: #000;
+}
 .menu{
     margin: 2rem 0rem;
     border-bottom: 0.01rem solid $colorNegro;

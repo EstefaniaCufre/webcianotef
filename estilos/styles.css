@@ -104,11 +104,16 @@ nav ul {
         text-decoration: none;
         color: #26619C; }
 
-.marginMenu {
-  margin: 2rem 0rem; }
-
 .logoHeader {
-  width: 25%; }
+  width: 25%;
+  margin-left: 5rem; }
+
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+  color: #26619C; }
+
+.navbar-customclass .navbar-nav .nav-link {
+  color: #000; }
 
 .menu {
   margin: 2rem 0rem;
@@ -326,19 +331,33 @@ nav ul {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center; }
+  .logoHeader {
+    width: 35%;
+    margin-left: 2rem; }
+  .margenesSeccion {
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
   .bio {
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    padding: 0; }
-    .bio img {
-      max-width: 85%;
-      margin: 0;
-      padding: 0; }
+    margin: 0.2;
+    padding: 0.2; }
     .bio p {
       max-width: 85%;
-      margin: 0;
-      padding: 0; }
+      margin: 0.2rem;
+      padding: 0.2rem; }
+  .bioImg {
+    max-width: fit-content;
+    margin: 1rem auto 12rem auto;
+    padding: 0.2rem;
+    transition: none !important; }
+  .bioVid {
+    width: 100%;
+    height: auto;
+    margin: 3% 0% 0% 0%; }
   .galeria {
     max-width: 85%; }
   .tienda {
