@@ -192,7 +192,7 @@ nav ul {
   object-fit: cover;
   transition: height, 1s; }
   .bioImg:hover {
-    height: 25rem; }
+    height: 21rem; }
 
 .bioTexto {
   margin-right: 3rem;
@@ -351,7 +351,7 @@ nav ul {
       padding: 0.2rem; }
   .bioImg {
     max-width: fit-content;
-    margin: 1rem auto 12rem auto;
+    margin: 1rem auto 1.8rem auto;
     padding: 0.2rem;
     transition: none !important; }
   .bioVid {
