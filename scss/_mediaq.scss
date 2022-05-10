@@ -48,18 +48,17 @@
 /** MOBILE **/
 
 @media screen and (max-width: 425px) {
-      .menu {
+  .menu {
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
       
     }
 
-    .logoHeader{
+  .logoHeader{
       width: 35%;
       margin-left: 2rem;
-  
-  }
+    }
 
   .margenesSeccion {
     margin: 0.5rem 0.5rem;
@@ -67,11 +66,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
+    }
 
-
-
-   
+  
   .bio {
     flex-direction: column;
     align-items: center;
@@ -85,7 +82,7 @@
      }
    }
 
- .bioImg {
+  .bioImg {
   max-width: fit-content;
   margin: 1rem auto 1.8rem auto;
   padding: 0.2rem;
@@ -93,25 +90,47 @@
 }
 
 
-.bioVid {
+  .bioVid {
   width:100%;
   height: auto;
   margin: 3% 0% 0% 0%;
 }
-
-
-   
-.galeria {
-     max-width: 85%;
-     
+ 
+  .galeria {
+    max-width: 85%;
+    display: flex;
+    flex-direction: row;
+      img {
+        height: 20rem;
+        width: auto;
+        margin: 1rem auto 1.5rem auto;
+        padding: 0.2rem;
+        transition: none;
+        &:hover {
+          height: 20rem;
+        }
+      }
+      h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 0.1rem;
+      }
+      p {
+        font-size: 0.8rem;
+        margin: 0.1rem 0 0 3rem;
+        padding: 0.1rem;
+      }
 }
 
-.tienda {
+  .tienda {
      max-width: 80%;
      margin: 0 auto;
 }
 
- 
+.contactoImg {
+  display: none;
+}
+
 .footer {
   margin: 0;
   padding: 2rem 0.5rem 0.5rem 0.5rem;
@@ -128,11 +147,5 @@
       margin: 0.5rem 0 0 0;
       font-size: 0.8rem;
     }
-
-  }
-  
-  
-  }
-  
- 
-
+}
+}
