@@ -96,6 +96,7 @@ nav ul {
   nav ul li {
     list-style-type: none; }
     nav ul li a {
+      font-size: 1.2rem;
       text-decoration: none;
       font-family: 'Montserrat', sans-serif;
       text-transform: uppercase;
@@ -250,9 +251,7 @@ nav ul {
     padding: 0.1rem; }
 
 .tienda {
-  padding-left: 2.2rem; }
-  .tienda img {
-    align-items: right; }
+  padding-left: 2rem; }
   .tienda h3 {
     text-align: center; }
   .tienda p {
@@ -262,9 +261,6 @@ nav ul {
 .precio {
   text-align: left;
   font-weight: bold; }
-
-.marginBtm {
-  margin-bottom: 2rem; }
 
 .contactoImg {
   height: 40rem;
@@ -297,7 +293,9 @@ nav ul {
     padding: 1rem; }
 
 /** TABLET **/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
+  .margenesSeccion {
+    margin: 1rem 4rem; }
   .menu {
     flex-direction: column;
     flex-wrap: wrap;
@@ -323,7 +321,50 @@ nav ul {
   .bio p {
     object-fit: contain;
     margin: 0;
-    padding: 0; } }
+    padding: 0; }
+  .bioVid {
+    width: 100%;
+    height: auto;
+    margin: 3% 0% 0% 0%;
+    padding-left: 3rem; }
+  .galeria img {
+    height: 15rem;
+    width: auto;
+    margin: 1rem auto 1rem auto;
+    padding: 0.2rem; }
+  .galeria h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0 1rem;
+    padding: 0; }
+  .galeria p {
+    font-size: 0.8rem;
+    margin: 0 0 0 1rem;
+    padding: 0; }
+  .tienda {
+    padding-left: 1rem; }
+    .tienda h3 {
+      font-size: 1rem; }
+    .tienda p {
+      font-size: 0.8rem; }
+  .precio {
+    font-size: 1rem; }
+  .btn-tienda {
+    margin: 0.8rem;
+    font-size: 0.9rem; }
+  .contactoImg {
+    height: 18rem;
+    margin: 1rem; }
+  .formulario {
+    width: 100%;
+    margin: 1rem auto; }
+  .campo {
+    margin-bottom: 1rem; }
+    .campo label {
+      font-size: 1rem; }
+    .campo input, .campo textarea {
+      max-width: 100%;
+      padding: 0.5rem;
+      font-size: 0.8rem; } }
 
 /** MOBILE **/
 @media screen and (max-width: 425px) {
@@ -366,10 +407,7 @@ nav ul {
       height: 20rem;
       width: auto;
       margin: 1rem auto 1rem auto;
-      padding: 0.2rem;
-      transition: none; }
-      .galeria img:hover {
-        height: 20rem; }
+      padding: 0.2rem; }
     .galeria h3 {
       font-size: 1rem;
       margin: 0.5rem 0 0 1rem;
@@ -386,20 +424,13 @@ nav ul {
     display: none; }
   .formulario {
     width: 100%;
-    margin: auto;
-    font-family: 'Montserrat', sans-serif; }
-    .formulario fieldset {
-      padding: 1rem;
-      margin: 0 0 2rem 1rem; }
+    margin: auto; }
   .campo {
-    display: flex;
     margin-bottom: 1rem; }
     .campo label {
       font-size: 1rem; }
     .campo input, .campo textarea {
       max-width: 100%;
-      flex: 1;
-      border: 1px solid #EEF4ED;
       padding: 0.5rem;
       font-size: 0.8rem; }
   .footer {

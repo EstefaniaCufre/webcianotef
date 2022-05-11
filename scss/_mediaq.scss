@@ -1,8 +1,13 @@
 /** TABLET **/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
 
-   .menu {
+
+  .margenesSeccion {
+    margin: 1rem 4rem;
+    }
+
+  .menu {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -43,7 +48,87 @@
       padding: 0;
     }
   }
+
+  .bioVid {
+    width:100%;
+    height: auto;
+    margin: 3% 0% 0% 0%;
+    padding-left: 3rem;
+  }
+
+
+  .galeria {
+     img {
+        height: 15rem;
+        width: auto;
+        margin: 1rem auto 1rem auto;
+        padding: 0.2rem;
+      
+      }
+      
+      h3 {
+        font-size: 1rem;
+        margin: 0.5rem 0 0 1rem;
+        padding: 0;
+        }
+    p {
+        font-size: 0.8rem;
+        margin: 0 0 0 1rem;
+        padding: 0;
+      }
+  }
+
+  .tienda { 
+    padding-left: 1rem;
+      h3 {
+        font-size: 1rem;
+      }
+    
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+  .precio {
+    font-size: 1rem;
+  }
+
+  .btn-tienda {
+    margin: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  
+
+  .contactoImg {
+    height: 18rem;
+    margin: 1rem;
+  }
+  
+  .formulario {
+    width: 100%;
+    margin: 1rem auto;
+  
+  }
+  
+  .campo {
+    margin-bottom: 1rem;
+  
+  
+    label {
+      font-size: 1rem;
+    }
+  
+    input, textarea {
+      max-width: 100%;
+      padding: 0.5rem;
+      font-size: 0.8rem;
+    }
+  }
+
 }
+
+
   
 /** MOBILE **/
 
@@ -94,7 +179,7 @@
   width:100%;
   height: auto;
   margin: 3% 0% 0% 0%;
-}
+  }
  
   .galeria {
     max-width: 85%;
@@ -105,11 +190,8 @@
         width: auto;
         margin: 1rem auto 1rem auto;
         padding: 0.2rem;
-        transition: none;
-        &:hover {
-          height: 20rem;
-        }
       }
+      
       h3 {
         font-size: 1rem;
         margin: 0.5rem 0 0 1rem;
@@ -136,18 +218,10 @@
 .formulario {
   width: 100%;
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
-    
-  fieldset {
-    padding: 1rem;
-    margin: 0 0 2rem 1rem;
-   
-  }
 
 }
 
 .campo {
-  display: flex;
   margin-bottom: 1rem;
 
 
@@ -157,8 +231,6 @@
 
   input, textarea {
     max-width: 100%;
-    flex: 1;
-    border: 1px solid #EEF4ED;
     padding: 0.5rem;
     font-size: 0.8rem;
   }
