@@ -365,28 +365,47 @@ nav ul {
     .galeria img {
       height: 20rem;
       width: auto;
-      margin: 1rem auto 1.5rem auto;
+      margin: 1rem auto 1rem auto;
       padding: 0.2rem;
       transition: none; }
       .galeria img:hover {
         height: 20rem; }
     .galeria h3 {
       font-size: 1rem;
-      margin-top: 1rem;
-      padding: 0.1rem; }
+      margin: 0.5rem 0 0 1rem;
+      padding: 0; }
     .galeria p {
       font-size: 0.8rem;
-      margin: 0.1rem 0 0 3rem;
-      padding: 0.1rem; }
+      margin: 0 0 0 1rem;
+      padding: 0; }
   .tienda {
     max-width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 0; }
   .contactoImg {
     display: none; }
+  .formulario {
+    width: 100%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif; }
+    .formulario fieldset {
+      padding: 1rem;
+      margin: 0 0 2rem 1rem; }
+  .campo {
+    display: flex;
+    margin-bottom: 1rem; }
+    .campo label {
+      font-size: 1rem; }
+    .campo input, .campo textarea {
+      max-width: 100%;
+      flex: 1;
+      border: 1px solid #EEF4ED;
+      padding: 0.5rem;
+      font-size: 0.8rem; }
   .footer {
     margin: 0;
     padding: 2rem 0.5rem 0.5rem 0.5rem;
-    height: 11rem;
+    height: 22rem;
     max-width: fit-content;
     display: flex;
     flex-direction: row;
@@ -395,5 +414,5 @@ nav ul {
       padding: 0;
       margin: 0; }
     .footer p {
-      margin: 0.5rem 0 0 0;
+      margin: 0.5rem 0 0.5rem 0;
       font-size: 0.8rem; } }
