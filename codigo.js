@@ -11,13 +11,16 @@ for (let i=1; i<=6; i++) {
 }
 let totalSinIva=sumatoria;
 alert ("El total sin IVA es de $ "+sumatoria);
-}
-else {
-    alert ("¡Ok! ¡Hasta la próxima!")
-}
 
 let totalConIva=function (precio){return precio*1.21};
 
 console.log (totalConIva(sumatoria));
 
 alert ("El total con IVA es de $ "+(totalConIva(sumatoria)));
+
+}
+else {
+    alert ("¡Ok! ¡Hasta la próxima!")
+};
+
+
