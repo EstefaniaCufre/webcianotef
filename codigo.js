@@ -1,4 +1,4 @@
-/* let inicio = prompt("¡Bienvenido a la tienda virtual de CianoTef! ¿Querés adquirir obras originales?")
+let inicio = prompt("¡Bienvenido a la tienda virtual de CianoTef! ¿Querés adquirir obras originales?")
 let productos;
 let sumatoria=0;
 let precio=2000
@@ -9,7 +9,7 @@ for (let i=1; i<=6; i++) {
     console.log("Producto " + i + ": "+ productos + " pesos")
     sumatoria=sumatoria+productos;
 }
-let totalSinIva=sumatoria;
+
 alert ("El total sin IVA es de $ "+sumatoria);
 
 let totalConIva=function (precio){return precio*1.21};
@@ -22,8 +22,6 @@ alert ("El total con IVA es de $ "+(totalConIva(sumatoria)));
 else {
     alert ("¡Ok! ¡Hasta la próxima!")
 };
-
-*/
 
 const misObras=[
     {
@@ -94,8 +92,27 @@ class Obra{
     }   
 }
 
+
 for (const obra of misObras) {
 misObras.push(new Obra(misObras.titulo="El movimiento estático",misObras.serie="Silencios territoriales", misObras.papel="Acuarela", misObras.precio=2250))
 }
 
 console.log(misObras);
+
+misObras.forEach((obra)=>{console.log(misObras.titulo)});
+
+const menorPrecio=misObras.filter((obra)=> misObras.precio<2500);
+
+if(menorPrecio.length>0){
+    console.log(menorPrecio);
+}else{
+    console.log("No se encontraron cianotipias");
+}
+
+let encontrado=misObras.find((obra)=>misObras.titulo=="La Castellana");
+console.log(encontrado);
+if(encontrado==undefined){
+    console.log("Sin stock");
+}else{
+    console.log(encontrado.titulo+" "+encontrado.serie+" "+encontrado.precio)
+}
