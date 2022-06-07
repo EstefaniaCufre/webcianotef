@@ -116,3 +116,20 @@ if(encontrado==undefined){
 }else{
     console.log(encontrado.titulo+" "+encontrado.serie+" "+encontrado.precio)
 }
+
+//DOM - desafio complementario
+console.dir(document.body);
+
+let titulo=document.getElementsByTagName("h2");
+console.log(titulo.innerText);
+titulo.innerText="Tienda Virtual de CianoTef";
+titulo.style.font="regular 2rem Montserrat";
+
+const text=document.createElement("p")
+const node=document.createTextNode("Todas las obras son originales. Serán entregadas con su correspondiente certificado de autenticidad");
+text.appendChild(node);
+const element=document.getElementById("disclaimer");
+element.appendChild(text);
+
+
+
