@@ -132,4 +132,7 @@ const element=document.getElementById("disclaimer");
 element.appendChild(text);
 
 
+//Desafio: incorporar eventos
+
+
 
