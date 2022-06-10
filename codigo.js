@@ -92,6 +92,17 @@ class Obra{
     }   
 }
 
+for (const obra of misObras) {
+    misObras.push(
+        new Obra(
+            (titulo=obra.titulo),
+            (serie=obra.serie),
+            (papel=obra.papel),
+            (precio=obra.precio)
+        )
+    );
+}
+
 
 for (const obra of misObras) {
 misObras.push(new Obra(misObras.titulo="El movimiento estático",misObras.serie="Silencios territoriales", misObras.papel="Acuarela", misObras.precio=2250))
@@ -117,7 +128,7 @@ if(encontrado==undefined){
     console.log(encontrado.titulo+" "+encontrado.serie+" "+encontrado.precio)
 }
 
-//DOM - desafio complementario
+/* DOM - desafio complementario
 console.dir(document.body);
 
 let titulo=document.getElementsByTagName("h2");
@@ -131,8 +142,24 @@ text.appendChild(node);
 const element=document.getElementById("disclaimer");
 element.appendChild(text);
 
+*/
+
 
 //Desafio: incorporar eventos
 
+/*let btnTienda=document.getElementById("btnTienda");
 
+btnTienda.addEventListener("click",interactuar);
 
+function interactuar(){
+    alert("Estás por adquirir esta obra");
+}
+*/
+
+btnTienda.onclick=()=>{
+    console.log("Estás por adquirir esta obra");
+}
+
+btnTienda.onmouseover=()=>{
+    console.log("Obra disponible");
+}
