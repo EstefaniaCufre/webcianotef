@@ -1,7 +1,7 @@
 const misObras=[
     {
         id: 1,
-        imagen: ".../img/producto 1.png",
+        imagen: "https://www.innovaventas.com/tienda/wp-content/uploads/2020/07/camara-web-imilab-cmsxj22a-2mp-full-hd-2-300x300.jpg",
         titulo:"Su nombre no importa",
         serie:"Ciudades",
         papel: "Acuarela",
@@ -9,7 +9,7 @@ const misObras=[
     },
     {
         id: 2,
-        imagen: ".../img/producto 2.png",
+        imagen: "../img/producto 2.png",
         titulo:"Palacio de Comunicaciones",
         serie:"Ciudades",
         papel: "Acuarela",
@@ -17,7 +17,7 @@ const misObras=[
     },
     {
         id: 3,
-        imagen: ".../img/producto 3.png",
+        imagen: "../img/producto 3.png",
         titulo:"Serpiente metálica",
         serie:"Ciudades",
         papel: "Acuarela",
@@ -25,7 +25,7 @@ const misObras=[
     },
     {
         id: 4,
-        imagen: ".../img/producto 4.png",
+        imagen: "../img/producto 4.png",
         titulo:"La Castellana",
         serie:"Ciudades",
         papel: "Vegetal",
@@ -33,7 +33,7 @@ const misObras=[
     },
     {
         id: 5,
-        imagen: ".../img/producto 5.png",
+        imagen: "../img/producto 5.png",
         titulo:"Mensajes aéreos",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -41,7 +41,7 @@ const misObras=[
     },
    {
         id: 6,
-        imagen: ".../img/producto 6.png",
+        imagen: "../img/producto 6.png",
         titulo:"¿Sueñan los monjes con feriados?",
         serie:"Silencios territoriales",
         papel: "Acuarela",
@@ -49,7 +49,7 @@ const misObras=[
     },
     {
         id: 7,
-        imagen: ".../img/producto 7.png",
+        imagen: "../img/producto 7.png",
         titulo:"Desde afuera",
         serie:"Silencios territoriales",
         papel: "Acuarela",
@@ -57,7 +57,7 @@ const misObras=[
     },
     {
         id: 8,
-        imagen: ".../img/producto 8.png",
+        imagen: "../img/producto 8.png",
         titulo:"Novios ausentes",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -65,7 +65,7 @@ const misObras=[
     },
     {
         id: 9,
-        imagen: ".../img/producto 9.png",
+        imagen: "../img/producto 9.png",
         titulo:"El movimiento estático",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -77,4 +77,4 @@ const misObras=[
 
 for(const obra of misObras){
     console.log("Titulo: "+obra.titulo+" - Precio: $"+obra.precio);
-}
+};
