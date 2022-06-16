@@ -1,5 +1,8 @@
 //DOM llamada a renderizar
 let carrito=[];
+if(localStorage.getItem("carrito")!=null){
+    carrito=JSON.parse(localStorage.getItem("carrito"));
+}
 let lista=document.getElementById("miLista");
 
 let misObras=[];
