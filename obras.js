@@ -25,7 +25,7 @@ const misObras=[
     },
     {
         id: 4,
-        imagen: "../img/producto 4.png",
+        img: "../img/producto 4.png",
         titulo:"La Castellana",
         serie:"Ciudades",
         papel: "Vegetal",

@@ -3,7 +3,7 @@ const carrito = new CrearCarrito();
 const productos = [
 	{
 		id: 1,
-        img: "img/producto 1.png",
+        img: "/img/producto 1.png",
         titulo: "Su nombre no importa",
 		serie: "Ciudades",
         papel: "Acuarela",
@@ -11,7 +11,7 @@ const productos = [
 	},
 	{
 		id: 2,
-        img: "img/producto 2.png",
+        img: "/img/producto 2.png",
         titulo:"Palacio de Comunicaciones",
         serie:"Ciudades",
         papel: "Acuarela",
@@ -19,7 +19,7 @@ const productos = [
 	},
 	{
 		id: 3,
-        img: "img/producto 3.png",
+        img: "/img/producto 3.png",
         titulo:"Serpiente metálica",
         serie:"Ciudades",
         papel: "Acuarela",
@@ -27,7 +27,7 @@ const productos = [
 	},
 	{
 		id: 4,
-        img: "img/producto 4.png",
+        img: "/img/producto 4.png",
         titulo:"La Castellana",
         serie:"Ciudades",
         papel: "Vegetal",
@@ -35,7 +35,7 @@ const productos = [
 	},
 	{
 		id: 5,
-        imagen: "img/producto 5.png",
+        imagen: "/img/producto 5.png",
         titulo:"Mensajes aéreos",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -43,7 +43,7 @@ const productos = [
 	},
 	{
 		id: 6,
-        imagen: "img/producto 6.png",
+        imagen: "/img/producto 6.png",
         titulo:"¿Sueñan los monjes con feriados?",
         serie:"Silencios territoriales",
         papel: "Acuarela",
@@ -51,7 +51,7 @@ const productos = [
 	},
     {
         id: 7,
-        imagen: "img/producto 7.png",
+        imagen: "/img/producto 7.png",
         titulo:"Desde afuera",
         serie:"Silencios territoriales",
         papel: "Acuarela",
@@ -59,7 +59,7 @@ const productos = [
     },
     {
         id: 8,
-        imagen: "img/producto 8.png",
+        imagen: "/img/producto 8.png",
         titulo:"Novios ausentes",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -67,7 +67,7 @@ const productos = [
     },
     {
         id: 9,
-        imagen: "img/producto 9.png",
+        imagen: "/img/producto 9.png",
         titulo:"El movimiento estático",
         serie:"Silencios territoriales",
         papel: "Vegetal",
