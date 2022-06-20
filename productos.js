@@ -35,7 +35,7 @@ const productos = [
 	},
 	{
 		id: 5,
-        imagen: "/img/producto 5.png",
+        img: "/img/producto 5.png",
         titulo:"Mensajes aéreos",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -43,7 +43,7 @@ const productos = [
 	},
 	{
 		id: 6,
-        imagen: "/img/producto 6.png",
+        img: "/img/producto 6.png",
         titulo:"¿Sueñan los monjes con feriados?",
         serie:"Silencios territoriales",
         papel: "Acuarela",
@@ -51,7 +51,7 @@ const productos = [
 	},
     {
         id: 7,
-        imagen: "/img/producto 7.png",
+        img: "/img/producto 7.png",
         titulo:"Desde afuera",
         serie:"Silencios territoriales",
         papel: "Acuarela",
@@ -59,7 +59,7 @@ const productos = [
     },
     {
         id: 8,
-        imagen: "/img/producto 8.png",
+        img: "/img/producto 8.png",
         titulo:"Novios ausentes",
         serie:"Silencios territoriales",
         papel: "Vegetal",
@@ -67,7 +67,7 @@ const productos = [
     },
     {
         id: 9,
-        imagen: "/img/producto 9.png",
+        img: "/img/producto 9.png",
         titulo:"El movimiento estático",
         serie:"Silencios territoriales",
         papel: "Vegetal",
