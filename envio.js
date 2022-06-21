@@ -42,13 +42,8 @@ validation
 		},
 		{
 			rule: "minLength",
-			value: 10,
-			errorMessage: "Escribí un poco más...",
-		},
-		{
-			rule: "maxLength",
 			value: 15,
-			errorMessage: "Escribí un poco menos...",
+			errorMessage: "Por favor, escribí la dirección de envío completa.",
 		},
 	]);
 
@@ -68,7 +63,7 @@ function handleSubmit(e) {
 	enviarDatos(datosForm);
 
 	form.reset();
-	mensajeExito("Enviado!");
+	mensajeExito("Toda la información ha sido enviada.");
 }
 
 function enviarDatos(datos) {
