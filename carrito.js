@@ -28,7 +28,7 @@ class CrearCarrito {
 		this.productos = [];
 		this.precio = 0;
 		this._guardarCarrito();
-		mensajeExito("¡Carrito vaciado!");
+		mensajeExito("Carrito vaciado!");
 	}
 
 	calcularTotalConEnvío() {

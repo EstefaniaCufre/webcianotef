@@ -78,14 +78,14 @@ const productos = [
 const quitarDelCarrito = (id) => {
 	carrito.eliminarProducto(id);
 	listarProductos(productos);
-	mensajeExito("Producto eliminado!");
+	mensajeExito("Producto eliminado");
 };
 
 const agregarAlCarrito = (id) => {
 	const producto = productos.find((p) => p.id === id);
 	carrito.agregarProducto(producto);
 	listarProductos(productos);
-	mensajeExito("Producto agregado!");
+	mensajeExito("Producto agregado");
 };
 
 const listarProductos = (productos) => {
@@ -108,7 +108,8 @@ const crearCard = ({ id, img, titulo, serie, papel, precio }) => {
 	card.innerHTML = `
                 <img src="${img}" alt="${titulo}" class="pb-2 drop-shadow-lg" />
 				<h2 class="text-gray-700 font-sans text-xl">${titulo}</h2>
-				<h3>#${id}</h3>
+				<h3>Serie: ${serie}</h3>
+                <h3>Papel: ${papel}</h3>
 				<h4>$${precio}</h4>
 				<div class="w-full px-4 my-4 outline outline-1 outline-slate-300"></div>`;
 

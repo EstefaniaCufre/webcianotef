@@ -7,8 +7,8 @@ const config = {
 	stopOnFocus: true,
 	text: "sin mensaje",
 	style: {
-		background: "#65a30d",
-		color: "white",
+		background: "#C95C7F",
+		color: "#EEF4ED",
 	},
 };
 
@@ -18,8 +18,8 @@ const mensajeExito = (mensaje) => {
 		...config,
 		text: mensaje,
 		style: {
-			background: "#65a30d",
-			color: "white",
+			background: "#C95C7F",
+			color: "#EEF4ED",
 		},
 	}).showToast();
 };
@@ -30,8 +30,8 @@ const mensajeError = (mensaje) => {
 		...config,
 		text: mensaje,
 		style: {
-			background: "#dc2626",
-			color: "white",
+			background: "#C95C7F",
+			color: "#EEF4ED",
 		},
 	}).showToast();
 };
