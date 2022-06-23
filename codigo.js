@@ -1,4 +1,4 @@
-let inicio = prompt("¡Bienvenido a la tienda virtual de CianoTef! ¿Querés adquirir obras originales?")
+/*let inicio = prompt("¡Bienvenido a la tienda virtual de CianoTef! ¿Querés adquirir obras originales?")
 let productos;
 let sumatoria=0;
 let precio=2000
@@ -23,7 +23,7 @@ else {
     alert ("¡Ok! ¡Hasta la próxima!")
 };
 
-
+*/
 
 const misObras=[
     {

@@ -1,8 +1,3 @@
-//Operador ternario
-let inicio = prompt("¡Bienvenido a la tienda virtual de CianoTef! ¿Querés adquirir obras originales?")
-if ((inicio == "SI") || (inicio == "Si") || (inicio == "Sí") || (inicio == "SÍ") ||(inicio == "si") || (inicio == "sí")) { alert ("A continuación, seleccioná las obras que quieras comprar")} else { alert ("¡Ok! ¡Hasta la próxima!")
-};
-
 const minimoEnvioGratis = 5000;
 const costoEnvio = 500;
 
