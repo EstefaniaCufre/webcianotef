@@ -1,3 +1,31 @@
+// API
+let dolarVenta
+let euroVenta
+
+window.onload=()=>{
+    lista=document.getElementById("productos");
+    obtenerValorDolar();
+};
+
+async function obtenerValorDolar() {
+    const URLDOLAR = "https://api-dolar-argentina.herokuapp.com/api/dolaroficial";
+    const resp=await fetch(URLDOLAR)
+    const data=await resp.json()
+    document.getElementById("valor_dolar").innerHTML+=(`<p align="center">Dólar compra: $ ${data.compra}  Dólar venta: $ ${data.venta}</p>`);
+    dolarVenta = data.venta;
+    obtenerJSON();
+}
+
+async function obtenerValorEuro() {
+    const URLEURO = "https://api-dolar-argentina.herokuapp.com/api/euro/nacion";
+    const resp=await fetch(URLEURO)
+    const data=await resp.json()
+    document.getElementById("valor_euro").innerHTML+=(`<p align="center">Euro compra: $ ${data.compra}  Euro venta: $ ${data.venta}</p>`);
+    euroVenta = data.venta;
+    obtenerJSON();
+}
+
+
 //DOM llamada a renderizar
 let carrito=[];
 if(localStorage.getItem("carrito")!=null){
@@ -60,5 +88,7 @@ function agregarAlCarrito(itemNuevo){
 `;
 localStorage.setItem("carrito",JSON.stringify(carrito));
 }
+
+
 
 
