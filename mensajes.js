@@ -48,3 +48,15 @@ const mensajeError = (mensaje) => {
 	}).showToast();
 };
 
+const mensajeEnvio = (mensaje) => {
+	if (!mensaje) return;
+	Toastify({
+		...config,
+		text: mensaje,
+		style: {
+			background: "#C95C7F",
+			color: "#EEF4ED",
+		},
+	}).showToast();
+};
+

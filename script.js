@@ -89,6 +89,10 @@ function agregarAlCarrito(itemNuevo){
 localStorage.setItem("carrito",JSON.stringify(carrito));
 }
 
+const handleSubmit = (e) => {
+    e.preventDefault();
+    console.dir(e.target);
+}
 
 
 
